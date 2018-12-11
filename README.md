@@ -9,9 +9,9 @@ class I will build different methods to help iterate and manipulate the nodes on
 
 ### LinkedList Class
 
-Parent of the Node class. 
+Parent of the Node class. When the first node of a linked list is created, the list should initialize with a node called "head" and a pointer that is pointing to null or nil(I believe they will be interchangeable for this).  The list itself will have to be saved as its own individual object that will be referred to with a description of the objects it is referencing to (a list of the vikings from previous examples). 
 
 
 ### Node Class
 
-Child of the LinkedList class.  This will need to contain a #value method as well as a link to the next node.  
+Child of the LinkedList class.  This will need to contain a #value method as well as a link to the next node using a #next_node method.   
