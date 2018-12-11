@@ -11,6 +11,10 @@ class Node < LinkedList
 		@data
 	end
 
+	def next
+		super
+	end
+
 	def next_node
 		@pointer
 		# USE PREVIOUS DATA INPUT TO CREATE NEXT_NODE POINTER. YOU CAN SAVE THE PREVIOUS DATA IN A VARIABLE AND PASS IT AS 
