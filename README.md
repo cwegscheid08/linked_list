@@ -15,3 +15,8 @@ Parent of the Node class. When the first node of a linked list is created, the l
 ### Node Class
 
 Child of the LinkedList class.  This will need to contain a #value method as well as a link to the next node using a #next_node method. By returning the previous node's data to the current node, you can update your pointer to the next node.  When you start, the head node will be pointing at null.  When you add a node, you will iterate over the head node, update it to POINT to the node you are creating, and take the node that HEAD was pointing to and set your current node to point to null.  Very wordy description there.   
+
+
+### AFTER THOUGHTS
+
+It was a lot easier writing the additional methods once I got the first two down. It took a little bit for me to under stand moving back and forth within list, but became much easier once I started. 
